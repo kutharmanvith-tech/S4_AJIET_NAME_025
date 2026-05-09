@@ -6,7 +6,7 @@ class main{
         for(int i=1;i<arr.length;i++){
             if(arr[i]<register){
                 cut++;
-                register=arr[i+1];
+                register=arr[i];
             }
         }
         System.out.println(cut);
